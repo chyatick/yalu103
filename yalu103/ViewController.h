@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <UserNotifications/UserNotifications.h>
 
 @interface ViewController : UIViewController
 
@@ -19,9 +18,7 @@
 }
 
 
-@property (retain, nonatomic) IBOutlet UILabel *iOSVer;
-@property (strong, nonatomic) UNMutableNotificationContent *localNotifcation;
-- (IBAction)setButton:(id)sender;
+
 
 
 @end
